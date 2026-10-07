@@ -1,0 +1,10 @@
+generator,algorithm,slope,intercept
+backtracker,A*,0.987152,-0.160009
+backtracker,BFS,0.983052,-0.127731
+backtracker,DFS,1.0295,-0.343129
+binary_tree,A*,0.505851,0.419239
+binary_tree,BFS,1.01523,-0.254295
+binary_tree,DFS,0.505851,0.419239
+prim,A*,1.09875,-1.02185
+prim,BFS,0.991456,0.0250795
+prim,DFS,0.955204,-0.32276

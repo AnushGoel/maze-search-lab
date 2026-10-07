@@ -1,0 +1,10 @@
+heuristic,consistent,path_length,nodes_expanded,pct_of_bfs,must_expand,median_s
+h = 0 (uniform-cost),True,76360,371628,100.008,371610,0.935966
+Euclidean,True,76360,367698,98.9505,367696,1.02154
+Manhattan,True,76360,366588,98.6518,366578,1.02837
+"Weighted, w = 2",False,76360,361941,97.4012,,1.00218
+"Weighted, w = 5",False,76360,356317,95.8878,,0.934646
+"Greedy-like, w = 10^6",False,76360,152792,41.1176,,0.421288
+ALT k=4,True,76360,150350,40.4604,10538,0.51504
+ALT k=8,True,76360,145898,39.2623,10538,0.578083
+ALT k=16,True,76360,138924,37.3856,20,0.695879

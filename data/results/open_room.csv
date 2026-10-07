@@ -1,0 +1,6 @@
+algorithm,path_length,path_ratio,nodes_expanded,pct_expanded,peak_frontier,seconds
+BFS,1996,1,997999,99.9998,999,1.70673
+DFS (N-E-S-W),1996,1,1996,0.2,1996,0.00665229
+DFS (N-W-S-E),998000,500,998000,99.9999,996005,2.85966
+A*,1996,1,1996,0.2,1995,0.0898662
+Bi-BFS,1996,1,997002,99.8999,1998,2.50015

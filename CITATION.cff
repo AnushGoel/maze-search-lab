@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Maze Search Lab: blind and heuristic search on large grid mazes"
+type: software
+authors:
+  - family-names: "Goel"
+    given-names: "Anush"
+version: "1.0.0"
+date-released: "2026-10-07"
+license: MIT
+keywords:
+  - search algorithms
+  - A* search
+  - heuristics
+  - landmark heuristics
+  - mazes
+  - streamlit

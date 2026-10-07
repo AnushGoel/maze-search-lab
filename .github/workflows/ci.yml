@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt pytest ruff
+      - name: Lint
+        run: ruff check .
+      - name: Doctest
+        run: python -m doctest mazesearch/core.py
+      - name: Tests (package, analysis and every Streamlit page)
+        run: python -m pytest -q
+      - name: Experiment pipeline smoke run
+        run: python scripts/run_experiments.py --quick

@@ -1,0 +1,138 @@
+{
+ "study_maze": "data/mazes/study_1001x1001_backtracker_seed2026.txt.gz",
+ "stats": {
+  "width": 1001,
+  "height": 1001,
+  "open_cells": 499999,
+  "dead_ends": 24881,
+  "junctions": 24433,
+  "loops": 0,
+  "regions": 1,
+  "shortest_path": 76360,
+  "manhattan": 1996,
+  "tortuosity": 38.256513026052104
+ },
+ "map_factor": 2,
+ "luck_scale": 16,
+ "astar_saving_vs_bfs": 5010,
+ "profiles": {
+  "Manhattan": {
+   "c_star": 76360,
+   "h_max": 1996,
+   "reachable": 499999,
+   "closer_than_exit": 371610,
+   "must_expand": 366578,
+   "may_expand": 366641,
+   "prunable": 5032
+  },
+  "ALT k=4": {
+   "c_star": 76360,
+   "h_max": 111982,
+   "reachable": 499999,
+   "closer_than_exit": 371610,
+   "must_expand": 10538,
+   "may_expand": 180863,
+   "prunable": 361072
+  },
+  "ALT k=8": {
+   "c_star": 76360,
+   "h_max": 111982,
+   "reachable": 499999,
+   "closer_than_exit": 371610,
+   "must_expand": 10538,
+   "may_expand": 174043,
+   "prunable": 361072
+  },
+  "ALT k=16": {
+   "c_star": 76360,
+   "h_max": 111982,
+   "reachable": 499999,
+   "closer_than_exit": 371610,
+   "must_expand": 20,
+   "may_expand": 168829,
+   "prunable": 371590
+  },
+  "Exact h*": {
+   "must_expand": 0
+  }
+ },
+ "c_star": 76360,
+ "census": {
+  "exits": 499998,
+  "dfs_cheaper_pct": 62.07104828419314,
+  "median_log2_ratio": -0.21025252110670262,
+  "spearman_bfs": 0.9999999998336891,
+  "spearman_dfs": 0.5320148297545986,
+  "astar_over_bfs_median": 0.9934791771039594,
+  "census_checks": 31,
+  "census_matches": 31
+ },
+ "landmarks": [
+  [
+   259,
+   905
+  ],
+  [
+   121,
+   327
+  ],
+  [
+   885,
+   45
+  ],
+  [
+   369,
+   631
+  ],
+  [
+   975,
+   453
+  ],
+  [
+   701,
+   821
+  ],
+  [
+   343,
+   171
+  ],
+  [
+   515,
+   891
+  ],
+  [
+   193,
+   697
+  ],
+  [
+   531,
+   377
+  ],
+  [
+   25,
+   85
+  ],
+  [
+   907,
+   861
+  ],
+  [
+   933,
+   275
+  ],
+  [
+   393,
+   713
+  ],
+  [
+   333,
+   251
+  ],
+  [
+   357,
+   422
+  ]
+ ],
+ "landmark_build_s": 8.512070799000028,
+ "alt8_query_speedup_median": 3.6792438803607386
+}

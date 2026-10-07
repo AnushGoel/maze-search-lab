@@ -1,0 +1,32 @@
+{
+ "generated_utc": "2026-10-07T07:50:46+00:00",
+ "mazesearch": "1.0.0",
+ "python": "3.12.3",
+ "platform": "Linux x86_64",
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "numpy": "2.4.4",
+ "pandas": "3.0.2",
+ "seed": 2026,
+ "quick": false,
+ "experiment_seconds": {
+  "E1 benchmark": 90.4,
+  "E2 heuristic analysis": 30.6,
+  "E3 exit census": 48.4,
+  "E4 loops": 68.6,
+  "E5 move order": 10.5,
+  "E6 open room": 7.3,
+  "E7 texture and scaling": 43.4,
+  "E8 landmarks": 53.5
+ },
+ "total_seconds": 352.7,
+ "algorithms": {
+  "bfs": "BFS",
+  "dfs": "DFS",
+  "bibfs": "Bi-BFS",
+  "ucs": "UCS",
+  "astar": "A*",
+  "wastar": "WA* (w=2)",
+  "greedy": "Greedy",
+  "alt": "A* + ALT (k=8)"
+ }
+}
