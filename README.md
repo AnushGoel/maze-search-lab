@@ -7,9 +7,7 @@ An empirical study of breadth-first, depth-first and A* search on mazes with up 
 with a reproducible experiment pipeline and an interactive Streamlit app.
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
-![Core dependencies](https://img.shields.io/badge/core%20dependencies-none-2ea44f)
 ![Streamlit](https://img.shields.io/badge/app-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 <!-- After pushing, add the live CI badge (replace YOUR-USERNAME):
 [![CI](https://github.com/YOUR-USERNAME/maze-search-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/maze-search-lab/actions/workflows/ci.yml)
